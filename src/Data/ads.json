@@ -61,5 +61,41 @@
         "imageUrl": "https://live.staticflickr.com/65535/52874245406_112105fcd0_o.jpg",
         "company": "Curology",
         "url": "https://curology.com/"
+    },
+    {
+        "primaryText": "Looking for expert dental advice? Search the Oral Care Center for helpful articles and videos to help you care for you and your family's smiles at every stage.",
+        "headline": "Sparking optimism in everyone, everyday.",
+        "description": "At Colgate, we believe that “Everyone deserves a future to smile about”. In a world full of changes and opportunities, we believe an optimistic outlook can go a long way in fulfilling your aspirations and we hope to inspire this optimism in everyone, everyday.",
+        "CTA": "Order Shop Now",
+        "imageUrl": "https://live.staticflickr.com/65535/52874711128_dfe8ed8e7e_o.png",
+        "company": "Colgate",
+        "url": "https://www.colgate.com/en-in"
+    },
+    {
+        "primaryText": "Recycled content: The upper of this shoe is made with at least 20% recycled materials as a step toward a better future.",
+        "headline": "Explore Nitro Durability and Traction for Hiking",
+        "description": "The FUTURE is back, and so are the back-heels, stepovers and no-look passes. Inspired by Neymar Jr.’s playing style, the FUTURE ULTIMATE Unisex Football Boots highlight reengineered mid-cut construction, combines.",
+        "CTA": "Order Shop Now",
+        "imageUrl": "https://live.staticflickr.com/65535/52874449754_bc76b017bd_o.png",
+        "company": "Puma",
+        "url": "https://in.puma.com/in/en"
+    },
+    {
+        "primaryText": "Adidas designs for and with athletes of all kinds. Creators, who love to change the game. Challenge conventions.",
+        "headline": "Shop the top Trending Styles",
+        "description": "Through our collections we blur the borders between high fashion and high performance. Like our adidas by Stella McCartney athletic clothing collection.",
+        "CTA": "Order Now",
+        "imageUrl": "https://live.staticflickr.com/65535/52874283746_2250096256_o.png",
+        "company": "Adidas",
+        "url": "https://www.adidas.co.in/"
+    },
+    {
+        "primaryText": "We’ve spent 50 years shifting big ideas into scaled, sustainable platforms that have changed our products and manufacturing process, fueled our design ethos, and championed our athlete community.",
+        "headline": "Bring Inspiration and Innovation to Every Athlete in the World",
+        "description": "We champion continual progress for athletes and sport by taking action to help athletes reach their potential. Every job at NIKE, Inc. is grounded in a team-first mindset, cultivating a culture of innovation and a shared purpose to leave an enduring impact.",
+        "CTA": "Shop Now",
+        "imageUrl": "https://live.staticflickr.com/65535/52873715577_e54d367332_o.png",
+        "company": "Nike",
+        "url": "https://www.nike.com/in/"
     }
 ]
