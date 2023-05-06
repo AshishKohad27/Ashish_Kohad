@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Levi's",
+        "url": "https://www.levi.com/global"
+    },
+    {
+        "name": "Puma",
+        "url": "https://in.puma.com/in/en"
+    },
+    {
+        "name": "Salesforce",
+        "url": "https://www.salesforce.com/in/?ir=1"
+    },
+    {
+        "name": "Adidas",
+        "url": "https://www.adidas.co.in/"
+    },
+    {
+        "name": "Nike",
+        "url": "https://www.nike.com/in/"
+    },
+    {
+        "name": "Cotopaxi",
+        "url": "https://www.cotopaxi.com/"
+    },
+    {
+        "name": "Netflix",
+        "url": "https://www.netflix.com/in/"
+    },
+    {
+        "name": "Colgate",
+        "url": "https://www.colgate.com/en-in"
+    },
+    {
+        "name": "Valentino",
+        "url": "https://www.valentino.com/en-in/"
+    },
+    {
+        "name": "Curology",
+        "url": "https://curology.com/"
+    },
+    {
+        "name": "Purple",
+        "url": "https://purple.com/"
+    }
+]
