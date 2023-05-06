@@ -11,38 +11,23 @@ import {
 import "./App.css";
 import { useEffect, useState } from "react";
 import Products from "./Components/Products";
-import axios from "axios";
+import { useDispatch, useSelector } from "react-redux";
+import { getData } from "./Redux/data/data.action";
 
 function App() {
-  const [data, setData] = useState([]);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(false);
   const [params, setParams] = useState("");
-  const [message, setMessage] = useState("");
-  const [errorMessage, setErrorMessage] = useState("");
+  const dispatch = useDispatch();
+  const { data, loading, error, errorMessage, message } = useSelector((store) => store.data);
 
   useEffect(() => {
-    getData(params);
+    dispatch(getData(params));
   }, [params]);
-
-  async function getData(val) {
-    try {
-      setLoading(true);
-      let res = await axios.get(`http://localhost:4758/ads?query=${val}`);
-      setData(res.data.data);
-      setMessage(res.data.message);
-      setLoading(false);
-      setError(false);
-    } catch (e) {
-      setError(true);
-      setErrorMessage(e.message);
-    }
-  }
 
   const handelChange = (e) => {
     setParams(e.target.value);
     console.log("e.target.value:", e.target.value);
   };
+
   return (
     <div className="App">
       <Box maxW="1349px" m="auto" mt="50px" bg="purple.300" p="15px">

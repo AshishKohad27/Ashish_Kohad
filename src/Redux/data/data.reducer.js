@@ -1,3 +1,5 @@
+import { GET_DATA_ERROR, GET_DATA_LOADING, GET_DATA_SUCCESS } from "./data.types"
+
 const initialState = {
     data: [],
     loading: false,

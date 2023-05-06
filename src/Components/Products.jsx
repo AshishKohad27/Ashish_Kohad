@@ -29,7 +29,7 @@ export default function Products({ item }) {
         </Link>
       </Text>
       <Box maxW="100%" h="300px" bg="blue.200" borderRadius="20px">
-        <Image src={item.imageUrl} alt={item.headline} borderRadius="20px" />
+        <Image m="auto" w="100%" h="100%" border="2px solid #fff" src={item.imageUrl} alt={item.headline} borderRadius="20px" />
       </Box>
       <Box pb="10px">
         <Heading
